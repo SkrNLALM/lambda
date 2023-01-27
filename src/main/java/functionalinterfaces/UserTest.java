@@ -15,11 +15,13 @@ public class UserTest {
         users.add(User.builder().firstName("Emma").lastName("Pellard").age(25).build());
 
         //Print all elements in the list
-//        printName(users, p -> true);
+    //  printName(users, p -> true);
 
 
         //Print all users that last name starts with E
         printName(users, user -> user.getLastName().startsWith("E"));
+
+        printName(users, user -> user.getFirstName().startsWith("E"));
     }
 
     private static void printName(List<User> users, Predicate<User> p){
