@@ -6,7 +6,7 @@ import java.util.function.Consumer;
 public class Demo {
     public static void main(String[] args) {
 
-       //Reference to a static method
+       //Reference to a static method. line 10 and line 7 are the same
         Calculate s1 = (x,y) -> Calculator.findSum(x,y);
         s1.calculate(10,20);
 
