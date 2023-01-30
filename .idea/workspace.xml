@@ -5,11 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a832dd97-ff31-40dc-b55f-1d8b579b0294" name="Changes" comment="new method added">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/comperatorinterface/Apple.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/comperatorinterface/Color.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/comperatorinterface/ComparatorDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/comperatorinterface/MyComparator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/doublecolonoperator/MyClass.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/AppleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/AppleTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/doublecolonoperator/Demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/doublecolonoperator/Demo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/task/OrangeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/task/OrangeTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,8 +22,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="Enum" />
         <option value="Class" />
+        <option value="Enum" />
       </list>
     </option>
   </component>
@@ -68,7 +70,7 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.OrangeTest">
+  <component name="RunManager" selected="Application.ComparatorDemo">
     <configuration name="AppleTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="AppleTest" />
       <module name="lambda" />
@@ -76,12 +78,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="doublecolonoperator.Demo" />
+    <configuration name="ComparatorDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="comperatorinterface.ComparatorDemo" />
       <module name="lambda" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="doublecolonoperator.*" />
+          <option name="PATTERN" value="comperatorinterface.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -130,11 +132,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ComparatorDemo" />
         <item itemvalue="Application.OrangeTest" />
         <item itemvalue="Application.AppleTest" />
         <item itemvalue="Application.UserTest" />
         <item itemvalue="Application.Examples" />
-        <item itemvalue="Application.Demo" />
       </list>
     </recent_temporary>
   </component>
@@ -151,7 +153,8 @@
       <workItem from="1674672458563" duration="2307000" />
       <workItem from="1674676140615" duration="19000" />
       <workItem from="1674843437289" duration="12827000" />
-      <workItem from="1674906122863" duration="10139000" />
+      <workItem from="1674906122863" duration="10189000" />
+      <workItem from="1675102795404" duration="5295000" />
     </task>
     <task id="LOCAL-00001" summary="new method added">
       <created>1674851924866</created>
@@ -160,7 +163,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674851924866</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="new method added">
+      <created>1674922159275</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1674922159275</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
