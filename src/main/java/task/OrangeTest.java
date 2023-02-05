@@ -45,11 +45,11 @@ public class OrangeTest {
  //       }
      private static List<Orange> prettyPrintApple(List<Orange> inventory, Predicate <Orange> OrangeFormatter){
        for(Orange orange : inventory){
-           String output = String.valueOf(OrangeFormatter.test(orange));
-           // System.out.println(output);
-        }
-         return inventory;
-     }
+         String output = String.valueOf(OrangeFormatter.test(orange));
+          // System.out.println(output);
 
+        }
+        return null;
+    }
 
 }

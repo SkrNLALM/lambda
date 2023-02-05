@@ -5,13 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a832dd97-ff31-40dc-b55f-1d8b579b0294" name="Changes" comment="new method added">
-      <change afterPath="$PROJECT_DIR$/src/main/java/comperatorinterface/Apple.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/comperatorinterface/Color.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/comperatorinterface/ComparatorDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/comperatorinterface/MyComparator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/doublecolonoperator/MyClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/review/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/review/CarDurablePredicate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/review/CarFastPredicate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/review/CarNewPredicate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/review/CarPredicate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/review/CarTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/doublecolonoperator/Demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/doublecolonoperator/Demo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/task/OrangeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/task/OrangeTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,9 +22,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Enum" />
         <option value="Interface" />
         <option value="Class" />
-        <option value="Enum" />
       </list>
     </option>
   </component>
@@ -70,10 +71,23 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.ComparatorDemo">
+  <component name="RunManager" selected="Application.CarTest">
     <configuration name="AppleTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="AppleTest" />
       <module name="lambda" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CarTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="review.CarTest" />
+      <module name="lambda" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="review.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -84,19 +98,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="comperatorinterface.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Examples" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="functionalinterfaces.Examples" />
-      <module name="lambda" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="functionalinterfaces.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -132,11 +133,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ComparatorDemo" />
+        <item itemvalue="Application.CarTest" />
         <item itemvalue="Application.OrangeTest" />
+        <item itemvalue="Application.ComparatorDemo" />
         <item itemvalue="Application.AppleTest" />
         <item itemvalue="Application.UserTest" />
-        <item itemvalue="Application.Examples" />
       </list>
     </recent_temporary>
   </component>
@@ -154,7 +155,11 @@
       <workItem from="1674676140615" duration="19000" />
       <workItem from="1674843437289" duration="12827000" />
       <workItem from="1674906122863" duration="10189000" />
-      <workItem from="1675102795404" duration="5295000" />
+      <workItem from="1675102795404" duration="5365000" />
+      <workItem from="1675269229049" duration="36000" />
+      <workItem from="1675285162348" duration="1119000" />
+      <workItem from="1675461636148" duration="1730000" />
+      <workItem from="1675598628391" duration="6683000" />
     </task>
     <task id="LOCAL-00001" summary="new method added">
       <created>1674851924866</created>
@@ -170,7 +175,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674922159275</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="new method added">
+      <created>1675108129899</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1675108129899</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
